@@ -1,4 +1,4 @@
-var player = new Player()
+var player = new Player(10,10,20,0,1)
 
 var playerHP = document.getElementById('player-HP')
 var playerGold = document.getElementById('player-Gold')
