@@ -1,0 +1,11 @@
+{
+  "extends": "eslint:recommended",
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "env": {
+      "es6": true,
+      "node": true
+  }
+}

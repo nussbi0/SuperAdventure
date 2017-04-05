@@ -8,6 +8,7 @@ var gulp = require('gulp'),
 gulp.task('concat-scripts', function() {
     return gulp.src([
         'src/js/player.js',
+        'src/js/healingPotion.js',
         'src/js/entry.js'
         ])
     .pipe(concat('app.js'))
