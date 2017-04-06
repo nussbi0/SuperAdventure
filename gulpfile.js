@@ -7,8 +7,20 @@ var gulp = require('gulp'),
 // Concat Scripts
 gulp.task('concat-scripts', function() {
     return gulp.src([
+        'src/js/randomNumberGen.js',
+        'src/js/item.js',
+        'src/js/livingCreature.js',
+        'src/js/location.js',
+        'src/js/monster.js',
+        'src/js/quest.js',
+        'src/js/weapon.js',
         'src/js/player.js',
         'src/js/healingPotion.js',
+        'src/js/inventoryItem.js',
+        'src/js/lootItem.js',
+        'src/js/playerQuest.js',
+        'src/js/questCompletionItem.js',
+        'src/js/world.js',
         'src/js/entry.js'
         ])
     .pipe(concat('app.js'))

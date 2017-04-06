@@ -1,9 +1,12 @@
-class Player {
+class Player extends LivingCreature {
     constructor(hp, max_hp, gold, exp, lvl){
-        this.CurrentHitPoints = hp
-        this.MaximumHitPoints = max_hp
+        super(hp, max_hp)
         this.Gold = gold
         this.ExperiencePoints = exp
         this.Level = lvl
+
+        this.CurrentLocation = {}
+        this.Inventory = []
+        this.Quests = []
     }
 }
